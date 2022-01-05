@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #students {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #students td,
+        #students th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        #students tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        #students tr:hover {
+            background-color: #ddd;
+        }
+        
+        #students th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Audio Video Production Assignment </h1>
+
+
+    <table id="students">
+        <h2>Student List</h2>
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Section</th>
+        </tr>
+        <tr>
+            <td>Hasen Suadik</td>
+            <td>A/ur14093/10</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Seid Mengistu</td>
+            <td>A/ur14180/10</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Sertse fire sibihat</td>
+            <td>A/ur15149/10</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+    <h2> Script </h2>
+    <object data="Script.pdf" type="application/pdf" width="1200px" height="800px">
+
+        <p> <a href="Script.pdf">click here to
+                download the PDF file.</a></p>
+
+    </object>
+    <h2>Audio before editing</h2>
+    <audio src="unedited.mp3" controls style="margin-left: 40px;">
+        Error: your web browser does not support this audio player.
+    </audio>
+    <br>
+    <br>
+    <h2>Audio after editing</h2>
+    <audio src="edited.mp3" controls style="margin-left: 40px;">
+        Error: your web browser does not support this audio player.
+    </audio>
+
+</body>
+
+
+</html>
